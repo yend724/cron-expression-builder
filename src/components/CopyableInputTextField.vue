@@ -17,7 +17,7 @@ const copyToClipboard = () => {
 </script>
 
 <template>
-  <div class="border rounded-md p-4">
+  <div class="border rounded-md p-4 bg-gray-100">
     <div class="grid grid-cols-[1fr_auto] gap-2 items-center">
       <div>{{ result }}</div>
       <button
