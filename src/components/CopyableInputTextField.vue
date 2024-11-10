@@ -22,7 +22,7 @@ const copyToClipboard = () => {
       <div>{{ result }}</div>
       <button
         type="button"
-        class="flex items-center px-2 rounded-md py-1 text-white bg-black hover:bg-gray-700"
+        class="flex items-center px-2 rounded-md py-1 bg-gray-900 text-gray-100 hover:bg-gray-700"
         @click="copyToClipboard"
       >
         <template v-if="isCopied">Copied</template>

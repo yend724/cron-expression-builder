@@ -1,5 +1,5 @@
 import { UNIT, VALUES } from '@/constants'
-import { type ValidationResult } from '@//types'
+import { type ValidationResult } from '@/types'
 
 export const parseValue = (
   value: ValidationResult,

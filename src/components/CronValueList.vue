@@ -19,9 +19,9 @@ const selectedValuesAsString = computed(() =>
     <li
       v-for="item in valuesAsString"
       :key="item"
-      class="w-8 text-center p-1 rounded"
+      class="size-6 grid place-items-center rounded"
       :class="{
-        'bg-black text-white': selectedValuesAsString.includes(item),
+        'bg-gray-900 text-gray-100': selectedValuesAsString.includes(item),
       }"
     >
       {{ item }}

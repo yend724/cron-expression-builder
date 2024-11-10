@@ -28,9 +28,10 @@ const cron = computed(() =>
 </script>
 
 <template>
-  <div class="max-w-4xl mx-auto py-8 font-mono px-4">
-    <div class="grid gap-y-10">
+  <div class="max-w-4xl mx-auto py-12 font-mono px-4">
+    <div class="grid gap-y-8">
       <LayoutHeader />
+      <LayoutAside />
       <LayoutMain class="grid gap-y-8">
         <div class="grid gap-y-6">
           <div class="grid gap-y-2">
@@ -86,7 +87,6 @@ const cron = computed(() =>
           />
         </div>
       </LayoutMain>
-      <LayoutAside />
     </div>
   </div>
 </template>
